@@ -4,7 +4,7 @@ Overview: Connect FOur is a tic-tac-toe like game and it is play with two playwe
 
 Game rule:The game will be played from the bottom row to the top rows. the players will do so by playing one row at the time, when there's only one spot left to fill players can move on to the next row. The players must connect 4 of the same colored discs in a row to win. Only one piece is played at a time. Players can be on the offensive or defensive. The game ends when there is a 4-in-a-row or a there's a draw.
 
-WireFrame: the wireframe is under screenshot. 
+WireFrame: the wireframe is under wireframe.png. 
 
 
 User stories: To start the game the player will need to press the start button. Since the player will be playing agaist the computer, the computer will go first. After a player win the game or reach a draw, player can press the reset button to reset the game. The winner of the game will be announce under status. In other to play the game all players have to do is press one of the circle on the board. The game can be play from left to right from the bottom up. 
