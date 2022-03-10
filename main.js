@@ -1,4 +1,4 @@
-// console.log("yellow")
+console.log("yellow")
 const startButton = document.getElementById('start-button');
 const myCircle = document.querySelectorAll('.gameboard');
 
@@ -10,7 +10,7 @@ function myButton() {
 }
 //  working on the board
 myCircle.onclick = function(){
-    
+
 }
 
 function buttonStart(){
