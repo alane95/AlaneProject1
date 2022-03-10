@@ -1,0 +1,13 @@
+create html (done)
+create css (done)
+create js(done)
+is your game playable? -- does your game meet the mvp requirements
+is your game winnable? -- does your game have win condition logic that works
+is the result of the win condition/score displayed to the user?
+does your game have a reset button? -- the reset button should return your game to the inital state
+does your game have clear instructions on how to play? -- a user who has never played your game before needs to be able to understand how to play
+is your game well documented in your readme.md?
+did you use a good git workflow by commiting your work frequently and at appropriate times during the project?
+is your js well organized?
+did you use a good coding style with DRY principles?
+is there effort put into styling your game?
