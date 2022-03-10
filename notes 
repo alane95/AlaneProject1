@@ -17,7 +17,7 @@ Create one square on your page. Write JavaScript code that will make an X appear
 - Commit your code and push to GitHub( done)
 Create another square above the first square.
 Write JavaScript code that will make an X appear in the lower square when the lower square is clicked, but will not allow an X to appear in the upper square until an X first appears in the lower square after clicking on the lower square. If that condition is satisfied, the upper square will display an X when clicked.
-- Commit your code and push to GitHub
+- Commit your code and push to GitHub(done)
 Continue writing JavaScript according to this approach until your stack of squares is eight squares high. In other words, a square will not display an X when clicked unless the square immediately below it already is displaying an X.
 - Commit your code and push to GitHub
 Write JavaScript code that will log "4 adjoining X's" to the console when four squares contain X's.

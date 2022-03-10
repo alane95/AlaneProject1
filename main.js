@@ -23,11 +23,11 @@ if(myCircle[i + 7].className.includes('boardX')){
         playerRun = 2
         playerTurn.innerHTML= myText.value + " turn " + " !";
     }
-    // else if (playerRun = 2){
-    //     myCircle[i].classList.add('boardX')
-    //     myCircle[i].classList.add('second-player')
-    //     playerRun = 1
-    //     playerTurn.innerHTML= "second player turn";
+    else if (playerRun = 2){
+        myCircle[i].classList.add('boardX')
+        myCircle[i].classList.add('second-player')
+        playerRun = 1
+        playerTurn.innerHTML= "second player turn";
     }
 }
 }
