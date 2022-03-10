@@ -18,13 +18,23 @@ height: 50px;
 width: 50px;
 margin: 5px;
 border-radius: 50px;
-border: 2px solid rgb(180, 214, 243);
+border: 1px solid rgb(180, 214, 243);
 padding: 0;
 }
 aside{
     width: 20%;
-    padding-left: 15px;
+    padding-right: 65px;
     margin-left: 15px;
-    float: right;
-    align-content: center;
+    float: right; 
 }
+.first-player{
+background-color: rgb(235,79,207);
+border-radius: 50px;
+border: 2px solid rgb(235,79,207);
+}
+.second-player{
+    background-color: rgb(64,64,132);
+    border-radius: 50px;
+    border: 2px solid rgb(64,64,132);
+    }
+    

@@ -14,7 +14,7 @@ is there effort put into styling your game?
 
 
 Create one square on your page. Write JavaScript code that will make an X appear in the square when the square is clicked.
-- Commit your code and push to GitHub
+- Commit your code and push to GitHub( done)
 Create another square above the first square.
 Write JavaScript code that will make an X appear in the lower square when the lower square is clicked, but will not allow an X to appear in the upper square until an X first appears in the lower square after clicking on the lower square. If that condition is satisfied, the upper square will display an X when clicked.
 - Commit your code and push to GitHub
