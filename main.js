@@ -10,35 +10,44 @@ let myMessage = document.getElementById("message");
 let playerRun = 1;
 let computerturn = 0;
 playerTurn.innerHTML = myText.value
-// console.log(myCircle);
+console.log(myCircle[0].classList.contains('first-player'));
 //  working on the board
-
+const winningCombos = [
+    [0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11], [12, 13, 14, 15],
+    [0, 4, 8, 12], [1, 5, 9, 13], [2, 6, 10, 14], [3, 7, 11, 15],
+    [0, 5, 10, 15], [3, 6, 9, 12]
+]
+// console.log(winningCombos[5][3])
+function checkForWin(){
+for (let i = 0; i < winningCombos.length; i++) {
+    let cirOne = myCircle[winningCombos[i][0]]
+    let cirTwo = myCircle[winningCombos[i][1]]
+    let cirThree = myCircle[winningCombos[i][2]]
+    let cirFour = myCircle[winningCombos[i][3]]
+    if (
+        cirOne.classList.contains('first-player') &&
+        cirTwo.classList.contains('first-player') &&
+        cirThree.classList.contains('first-player') &&
+        cirFour.classList.contains('first-player')
+    ){
+        console.log('first-player wins')
+    }
+}
+}
 for (let i = 0; i < myCircle.length; i++) {
     myCircle[i].onclick = function () {
-        console.log("hi")
-        if (myCircle[i + 7].className.includes('boardX')) {
+        console.log(myCircle[i])
+        if (myCircle[i + 4].className.includes('boardX')) {
             if (playerRun == 1) {
                 myCircle[i].classList.add('boardX')
                 myCircle[i].classList.add('first-player')
                 playerRun = 2
                 playerTurn.innerHTML = myText.value + " turn " + " !";
-console.log(myCircle[i])
-console.log(myCircle[i+1])
-                if (myCircle[i].classList.contains('first-player')&& myCircle[i - 1].classList.contains('first-player') && myCircle[i - 2].classList.contains('first-player') && myCircle[i - 3].classList.contains('first-player')){
-                    console.log('player one wins')
-                }
-            
-
-
-
-
-
-
-
-
-
-
-
+                // console.log(myCircle[i])
+                // console.log(myCircle[i+1])
+                // if (myCircle[i].classList.contains('first-player') && myCircle[i - 1].classList.contains('first-player') && myCircle[i - 2].classList.contains('first-player') && myCircle[i - 3].classList.contains('first-player')) {
+                //     console.log('player one wins')
+                // }
             }
             else {
                 myCircle[i].classList.add('boardX')
@@ -47,6 +56,7 @@ console.log(myCircle[i+1])
                 playerTurn.innerHTML = "second player turn";
             }
         }
+        checkForWin()
     }
 }
 
