@@ -24,10 +24,10 @@ for (let i = 0; i < myCircle.length; i++) {
                 playerTurn.innerHTML = myText.value + " turn " + " !";
 console.log(myCircle[i])
 console.log(myCircle[i+1])
-                if (myCircle[i].classList.contains('first-player')&& myCircle[i + 1].classList.contains('first-player') && myCircle[i + 2].classList.contains('first-player') && myCircle[i + 3].classList.contains('first-player')) {
+                if (myCircle[i].classList.contains('first-player')&& myCircle[i - 1].classList.contains('first-player') && myCircle[i - 2].classList.contains('first-player') && myCircle[i - 3].classList.contains('first-player')){
                     console.log('player one wins')
                 }
-
+            
 
 
 

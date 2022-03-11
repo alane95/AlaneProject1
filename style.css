@@ -1,5 +1,6 @@
 body{
     background: rgb(250, 250, 213);
+   justify-content: center;
 }
      
 .gameBoard{
@@ -11,6 +12,7 @@ body{
     margin: auto;
     border: 1px solid rgb(8, 0, 8);
     background-color: rgb(255, 255, 255);
+  
 }
 
 .board{
@@ -19,11 +21,11 @@ width: 50px;
 margin: 5px;
 border-radius: 50px;
 border: 1px solid rgb(180, 214, 243);
-padding: 0;
+
 }
 aside{
     width: 20%;
-    padding-right: 65px;
+    padding-right: 90px;
     margin-left: 15px;
     float: right; 
 }
