@@ -1,6 +1,6 @@
 
 const startButton = document.getElementById('start-button');
-const myCircle = document.querySelectorAll('.gameBoard div');
+const myCircle = document.querySelectorAll('#gameBoard div');
 const playerTurn = document.getElementById('player-turn')
 
 let myText = document.getElementById("myText");
