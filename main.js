@@ -32,8 +32,16 @@ for (let i = 0; i < winningCombos.length; i++) {
     ){
         console.log('first-player wins')
     }
+    else if (cirOne.classList.contains('second-player') &&
+    cirTwo.classList.contains('second-player') &&
+    cirThree.classList.contains('second-player') &&
+    cirFour.classList.contains('second-player')){
+        console.log('scond-player wins')
+    }
+    
 }
 }
+
 for (let i = 0; i < myCircle.length; i++) {
     myCircle[i].onclick = function () {
         console.log(myCircle[i])
