@@ -38,6 +38,9 @@ function checkForWin() {
             cirFour.classList.contains('second-player')) {
             console.log('second-player wins')
         }
+        else{
+
+        }
     }
 }
 
@@ -50,11 +53,6 @@ function checkForWin() {
                     myCircle[i].classList.add('first-player')
                     playerRun = 2
                     playerTurn.innerHTML = myText.value + " turn ";
-                    // console.log(myCircle[i])
-                    // console.log(myCircle[i+1])
-                    // if (myCircle[i].classList.contains('first-player') && myCircle[i - 1].classList.contains('first-player') && myCircle[i - 2].classList.contains('first-player') && myCircle[i - 3].classList.contains('first-player')) {
-                    //     console.log('player one wins')
-                    // }
                 }
                 else {
                     myCircle[i].classList.add('boardX')
@@ -63,16 +61,17 @@ function checkForWin() {
                     playerTurn.innerHTML = "computer turn";
                 }
             }
-            // buttonStart()
             checkForWin()
         }
     }
-    // function buttonStart() {
-      
+    
+    // randon choice for computer
+    // function randonMove(){
+    //     let randomIndex = Math.floor(Math.random()*winningCombos.length);
+    //     return winningCombos[randomIndex];
     // }
 
 
-// startButton.addEventListener('click', buttonStart);
 // create form button
 
 function myButton() {
