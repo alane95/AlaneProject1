@@ -8,19 +8,25 @@
     <script src="main.js" async defer > </script>
     <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
+<!-- <body>
+    <div class = "popup"> 
+        <span> -->
     <header>
         <h1 id="hello">Connect Four</h1>
     </header>
-    <!-- <form>   -->
-        <h1 id = "message"></h1>
+    <!-- <form id=" my-form" class="popuptext">   -->
+        <h3 id = "message"></h3>
         <label >Player Name</label><br>
         <input type="text" id="myText"><br>
-        <button onclick = "myButton()" >Submit </button>
+        <button id="on-click" onclick = "myButton()">Submit </button>
     <!-- </form> -->
+        <!-- </span>
+</div> -->
+
     <aside>
         <h2>Status Game </h2>
         <p id="player-turn"></p>
+        <p id = "my-result" class="hidden"> </p>
     </aside>
     <section id="gameBoard">
     <div id="cir1" class="board"></div>
