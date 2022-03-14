@@ -16,7 +16,8 @@ body{
     margin-left: 390px;
     border: 5px solid rgb(8, 0, 8);
     background-color: rgb(2, 2, 2);
-  
+    /* margin-top: 100px;
+   */
 }
 
 .board{
@@ -33,6 +34,26 @@ aside{
     margin-left: 15px;
     float: right; 
 }
+p{
+    padding-left: 5px;
+}
+.circle-f{
+    height: 80px;
+width: 80px;
+    background-color: rgb(255, 226, 250);
+    border-radius: 50px;
+    border: 2px solid rgb(235,79,207);
+    box-shadow: 0 0 5px 10px rgb(235,79,207);
+}
+.circle-s{
+    height: 80px;
+width: 80px;
+margin-top: 25px;
+    background-color: rgb(255, 226, 250);
+    border-radius: 50px;
+    border: 2px solid rgb(87,38,133);
+    box-shadow: 0 0 5px 10px rgb(87,38,133);
+}
 .first-player{
     background-color: rgb(255, 226, 250);
     border-radius: 50px;
@@ -45,7 +66,7 @@ aside{
     border: 2px solid rgb(87,38,133);
     box-shadow: 0 0 5px 10px rgb(87,38,133);
     }
-    .hi
+    
     footer{
         display: flex;
         justify-content: center;
@@ -53,6 +74,7 @@ aside{
         margin-top: 15px;
         padding-right: 100px;
     }
+
     /* .hidden{
         display: none;
     } */
